@@ -1,0 +1,25 @@
+{
+    "versions": {
+        "0.0": {
+            "feature": [
+                "Brew setup"
+            ],
+            "development version": {
+                "beta": {
+                    "0.0.b.0": [
+                        "[Brew setup]"
+                    ]
+                }
+            }
+        }
+    },
+    "features": {
+        "future": {
+        },
+        "present": {
+            "Brew setup": "0.0 -> now"
+        },
+        "past": {
+        }
+    }
+}
