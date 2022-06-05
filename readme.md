@@ -3,7 +3,7 @@ This repository show step to install and add Brew to path to make it can be used
 
 ### **Image Preview**
 - Example Image
-![Example Image](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme-assets/Image%20Preview.png)
+![Example Image](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme-assets/Image%20Preview.png?raw=true)
 
 ### **Go to**
 - [Brew homepage](https://brew.sh)
@@ -14,15 +14,25 @@ This repository show step to install and add Brew to path to make it can be used
 - Linux
 
 ### **Contents**
-#### [1. Install Brew](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme.md#1-install-brew)
-#### [2. Add Brew to PATH](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme.md#2-add-brew-to-path-for-windows-wsl-and-linux-only)
-#### [3. Install useful software for Brew](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme.md#3-install-useful-software-for-brew)
+#### [1. Update apt](./readme.md#0update-apt-for-debian-only-if-you-use-other-you-should-update-your-installer)
+
+#### [1. Install Brew](./readme.md#1-install-brew)
+
+#### [2. Add Brew to PATH](./readme.md#2-add-brew-to-path-for-windows-wsl-and-linux-only)
+
+#### [3. Install useful software for Brew](./readme.md#3-install-useful-software-for-brew)
 
 ---
 
 > **Important**
 >
 > In Windows, you have to [Install WSL](https://github.com/chinhchin/WSL-setup.git) and type every command in WSL to install brew.
+
+## **0. Update apt** (For Debian only, if you use other you should update your installer)
+Type these commands in your shell.
+```
+sudo apt update && sudo apt upgrade
+```
 
 ## **1. Install Brew**
 Copy and paste this command into your terminal.
@@ -43,7 +53,6 @@ Run those two command to add Homebrew to your PATH.
 
 - **Example in Linux**
 ![Linux example](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme-assets/Add%20Brew%20to%20PATH/Linux%20example.png?raw=true)
-Add 
 
 ## **3. Install useful software for Brew**
 ```
