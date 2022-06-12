@@ -4,6 +4,10 @@
             "feature": [
                 "Brew setup"
             ],
+            "release": false,
+            "updates": [
+                "init"
+            ],
             "development version": {
                 "beta": {
                     "0.0.b.0": [
