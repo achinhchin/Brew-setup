@@ -3,7 +3,7 @@ This repository show step to install and add Brew to path to make it can be used
 
 ### **Image Preview**
 - Example Image
-![Example Image](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme-assets/Image%20Preview.png?raw=true)
+![Example Image](./readme-assets/Image%20Preview.png)
 
 ### **Go to**
 - [Brew homepage](https://brew.sh)
@@ -42,17 +42,17 @@ Copy and paste this command into your terminal.
 
 > **Important** (for Windows (WSL) and Linux only)
 >
-> Don't close terminal or type any command after install brew for [2](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme.md#2-add-brew-to-path-for-windows-wsl-and-linux-only).
+> Don't close terminal or type any command after install brew for [2](./readme.md#2-add-brew-to-path-for-windows-wsl-and-linux-only).
 
 ## **2. Add Brew to PATH** (For Windows (WSL) and Linux only)
 After installing brew you can see in topic "*Next steps*" in "*Run these two commands in your terminal to add Homebrew to your PATH*"
 Run those two command to add Homebrew to your PATH.
 
 - **Example in WSL**
-![WSL example](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme-assets/Add%20Brew%20to%20PATH/WSL%20example.png?raw=true)
+![WSL example](./readme-assets/Add%20Brew%20to%20PATH/WSL%20example.png)
 
 - **Example in Linux**
-![Linux example](https://github.com/chinhchin/Brew-setup/blob/0.0.b.0/readme-assets/Add%20Brew%20to%20PATH/Linux%20example.png?raw=true)
+![Linux example](./readme-assets/Add%20Brew%20to%20PATH/Linux%20example.png)
 
 ## **3. Install useful software for Brew**
 ```

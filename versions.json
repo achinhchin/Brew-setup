@@ -1,20 +1,30 @@
 {
     "versions": {
         "0.0": {
-            "feature": [
+            "features": [
                 "Brew setup"
             ],
             "release": true,
             "updates": [
                 "init"
             ],
-            "development version": {
+            "development versions": {
                 "beta": {
                     "0.0.b.0": [
                         "[Brew setup]"
                     ]
                 }
             }
+        },
+        "0.1": {
+            "features": [
+                "Brew setup"
+            ],
+            "release": true,
+            "updates": [
+                "change image link"
+            ],
+            "development versions": []
         }
     },
     "features": {
