@@ -14,7 +14,7 @@ This repository show step to install and add Brew to path to make it can be used
 - Linux
 
 ### **Contents**
-#### [1. Update apt](./readme.md#0update-apt-for-debian-only-if-you-use-other-you-should-update-your-installer)
+#### [0. Update apt](./readme.md#0update-apt-for-debian-only-if-you-use-other-you-should-update-your-installer)
 
 #### [1. Install Brew](./readme.md#1-install-brew)
 
