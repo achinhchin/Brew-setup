@@ -28,10 +28,11 @@ This repository show step to install and add Brew to path to make it can be used
 >
 > In Windows, you have to [Install WSL](https://github.com/chinhchin/WSL-setup.git) and type every command in WSL to install brew.
 
-## **0. Update apt** (For Debian only, if you use other you should update your installer)
+## **0. Update apt and install git** (For Debian only, if you use other you should update your installer)
 Type these commands in your shell.
 ```
 sudo apt update && sudo apt upgrade
+sudo apt-get install git
 ```
 
 ## **1. Install Brew**
@@ -45,14 +46,11 @@ Copy and paste this command into your terminal.
 > Don't close terminal or type any command after install brew for [2](./readme.md#2-add-brew-to-path-for-windows-wsl-and-linux-only).
 
 ## **2. Add Brew to PATH** (For Windows (WSL) and Linux only)
-After installing brew you can see in topic "*Next steps*" in "*Run these two commands in your terminal to add Homebrew to your PATH*"
-Run those two command to add Homebrew to your PATH.
 
-- **Example in WSL**
-![WSL example](./readme-assets/Add%20Brew%20to%20PATH/WSL%20example.png)
-
-- **Example in Linux**
-![Linux example](./readme-assets/Add%20Brew%20to%20PATH/Linux%20example.png)
+```
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/$USER/.profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+```
 
 ## **3. Install useful software for Brew**
 ```
